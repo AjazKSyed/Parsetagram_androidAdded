@@ -27,7 +27,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+This shows the basic run through of the app
+
 <img src='http://g.recordit.co/fbul4GwVZt.gif' title='Video Walkthrough of Parsetagram' width='' alt='Video Walkthrough' />
+
+This shows the user is still logged in after closing the app.
+
+<img src='http://g.recordit.co/m6AdGyt9eX.gif' title='Video Walkthrough of Parsetagram' width='' alt='Video Walkthrough' />
 
 GIF created with [Recordit](http://g.recordit.co/).
 
