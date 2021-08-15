@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/UBm9dJygyZ.gif' title='Video Walkthrough of Parsetagram' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/fbul4GwVZt.gif' title='Video Walkthrough of Parsetagram' width='' alt='Video Walkthrough' />
 
 GIF created with [Recordit](http://g.recordit.co/).
 
