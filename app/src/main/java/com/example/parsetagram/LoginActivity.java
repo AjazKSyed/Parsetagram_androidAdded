@@ -2,7 +2,6 @@ package com.example.parsetagram;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +20,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText etUsername;
     private EditText etPassword;
     private Button btnLogin;
+    private Button btnRegisterSubmit;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -34,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             etUsername = findViewById(R.id.etUsername);
             etPassword = findViewById(R.id.etPassword);
             btnLogin = findViewById(R.id.btnLogin);
+            btnRegisterSubmit = findViewById(R.id.btnRegisterSubmit);
             btnLogin.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -43,6 +44,13 @@ public class LoginActivity extends AppCompatActivity {
 
                     loginUser(username, password);
                 }
+            });
+
+
+            btnRegisterSubmit.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    goRegisterActivity();                }
             });
     }
 
@@ -67,5 +75,13 @@ public class LoginActivity extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
         finish();
+    }
+
+
+    private void goRegisterActivity() {
+        Intent i = new Intent(this, RegisterActivity.class);
+        startActivity(i);
+
+
     }
 }
